@@ -1,0 +1,115 @@
+ion-content{
+    ion-header{
+        ion-toolbar{
+            --padding-start: 1.5rem;
+            --padding-end: 1.5rem;
+    
+            ion-title{
+                img{
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+        }
+
+        ion-buttons{
+            ion-thumbnail{
+                background-color: white;
+                --border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                ion-icon{
+                    font-size: 1.5rem;
+                }
+                img{
+                    width: 90%;
+                    height: 90%;
+                }
+            }
+        }
+    }
+
+    ion-row.tagline{
+        padding-left: 1.5rem;
+        ion-text{
+            font-weight: 800;
+            font-size: 2rem;
+        }
+    }
+
+    ion-row.srch{
+        align-items: center;
+        padding-right: 1rem;
+        ion-searchbar{
+            --background: #fff;
+        }
+    }
+
+    ion-list{
+        background: transparent;
+        ion-list-header{
+            padding-right: 1rem;
+            ion-label{
+                font-size: 1.1rem;
+            }
+            ion-button{
+                ion-text{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+
+        ion-thumbnail{
+            width: 4vh;
+            height: 4vh;
+            background-color: rgb(0, 84, 233);
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 70%;
+                height: 70%;
+            }
+        }
+
+        ion-label.recent{
+            font-size: 0.95rem;
+            font-weight: bold;
+            p{
+                margin-top: 5px;
+                font-size: 0.65rem;
+                font-weight: 600;
+            }
+        }
+
+        ion-text[slot="end"]{
+            font-size: 0.65rem;
+            font-weight: 500;
+            align-self: end;
+            margin-bottom: 0.8vh;
+        }
+    }
+
+    ion-list.recentJobs{
+        ion-item{
+            margin-left: 1.5vh;
+            margin-right: 1.5vh;
+            border-radius: 10px;
+            ion-label{
+                margin-top: 1.5vh;
+                margin-bottom: 1.5vh;
+            }
+        }
+    }
+
+    span.dot{
+        margin: 0 2px 2px 2px;
+        height: 3px;
+        width: 3px;
+        background-color: dimgray;
+        border-radius: 50%;
+        display: inline-block;
+    }
+}

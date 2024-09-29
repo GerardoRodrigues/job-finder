@@ -1,0 +1,21 @@
+ion-content{
+  ion-header {
+    ion-toolbar {
+        height: 30vh;
+        ion-buttons {
+            margin: 2vh 1.5vh;
+            ion-thumbnail {
+                background-color: #fff;
+                border: 1px solid var(--ion-color-medium);
+                --border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ion-icon {
+                font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+}
